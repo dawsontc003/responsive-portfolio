@@ -4,17 +4,33 @@ form {
   padding-left: 50px;
 }
 img {
-  width: 190px;
+  width: 300px;
+  margin: 25px;
 }
-footer {
-  background-color: blue;
-}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: blue;
+  background-color: #eceff3;
   color: white;
   text-align: center;
+}
+.cardmb-3 {
+  margin: 25px;
+}
+.imagegallery {
+  margin: 25px;
+}
+.article {
+  margin: 25px;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1534175507998-e5477e27c2c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+}
+.header {
+  font-style: italic;
+  font-family: fantasy;
+  color: white;
 }
