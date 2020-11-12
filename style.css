@@ -1,7 +1,12 @@
+.aside {
+  color: white;
+  float: right;
+}
 form {
   float: left;
   width: 500px;
   padding-left: 50px;
+  clear: both;
 }
 img {
   width: 300px;
@@ -14,7 +19,7 @@ img {
   bottom: 0;
   width: 100%;
   background-color: #eceff3;
-  color: white;
+  color: black;
   text-align: center;
 }
 .cardmb-3 {
