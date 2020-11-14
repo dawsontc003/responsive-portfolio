@@ -11,18 +11,15 @@ const projName3 = document.querySelector("#project3");
 // HTML target id for weather dashboard repo URL
 const projRepo3 = document.querySelector("#project3repo");
 
-// Fetch call for github repo information
+// function call
 gitHubRepo();
-
+// Fetch call for github repo information
 function gitHubRepo() {
   fetch("https://api.github.com/users/dawsontc003/repos")
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
-      console.log(data[0].name);
-      console.log(data[0].html_url);
       // appending project name for CO park rangers details
       projName1.textContent = data[0].name;
       projName1.append();

@@ -17,3 +17,4 @@ Although this was a small website for a beginning developer who is not familiar 
 With this being just a beginning I have a better understanding of dthe grid system and leveraging exising open source code to enhance a given project.
 
 https://dawsontc003.github.io/responsive-portfolio/
+![portfolio](https://user-images.githubusercontent.com/69283624/99152162-4a949e80-265d-11eb-8a1d-e392f8c60dea.PNG)
