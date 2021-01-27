@@ -27,16 +27,16 @@ function gitHubRepo() {
       projRepo1.textContent = data[0].html_url;
       projRepo1.append();
       // appending project name for daily scheduler details
-      projName2.textContent = data[1].name;
+      projName2.textContent = data[7].name;
       projName2.append();
       // appending daily scheduler repo url details
-      projRepo2.textContent = data[1].html_url;
+      projRepo2.textContent = data[7].html_url;
       projRepo2.append();
       // appending project name for weather dashboard details
-      projName3.textContent = data[10].name;
+      projName3.textContent = data[3].name;
       projName3.append();
       // appending weather dashboard repo url details
-      projRepo3.textContent = data[10].html_url;
+      projRepo3.textContent = data[3].html_url;
       projRepo3.append();
     });
 }
